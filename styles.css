@@ -98,9 +98,200 @@ margin-bottom: 34.68px;
 .b-item {
     margin-right: 105.2px;
 }
+.b-item img {
+    margin-bottom: 60px;
+}
 .b-item span {
     display: inline-block;
 }
 .banner img {
     margin-right: 14.36px;
+}
+.prod-title {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+color: #776F99;
+margin-top: 116px;
+/* margin-left: 242px; */
+}
+.prod-discript {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+/* or 147% */
+color: #A6A3A3;
+/* margin-left: 242px; */
+width: 330px;
+height: 238px;
+}
+/* .prod-title1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+color: #776F99;
+margin-top: 116px;
+margin-left: 97px;
+}
+.prod-discript1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+color: #A6A3A3;
+width: 330px;
+height: 238px;
+margin-left: 74px;
+}
+.prod-title2 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+color: #776F99;
+margin-top: 116px;
+}
+.prod-discript2 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+color: #A6A3A3;
+width: 330px;
+height: 238px;
+}
+.prod-title3 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+color: #776F99;
+margin-top: 116px;
+}
+.prod-discript3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+color: #A6A3A3;
+width: 330px;
+height: 238px;
+} */
+.row-first {
+    margin-bottom: 182px;
+}
+.partners-title {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 63px;
+color: #776F99;
+}
+.partners-discript {
+font-family: Roboto;      /* скачать шрифт*/
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+color: #767373;
+}
+.partners {
+    background: #fafafa;
+    height: 874px;
+    padding-top: 158px;
+}
+.careers-title {
+text-align: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 63px;
+color: #776F99;
+margin-top: 78px;
+height: 97px;
+}
+.careers-discript {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+text-align: center;
+color: #767373;
+}
+.vacancy1 {
+     height: 204.43px;
+    background: #A7A2C7;
+    border: 1px solid #DEDBDB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 37.35px;
+    padding-left: 198.56px;
+}
+.vac-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+     color: #FFFFFF;
+}
+.vac-discript1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin-top: 16.71px;
+}
+.vac-discript2 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+margin-top: 20.64px;
+}
+.read-more {
+    background: #FFFFFF;
+    border-radius: 300px;
+    width: 255px;
+    height: 71.8px;
+    margin-left: 1083px;
+    vertical-align: middle;
+}
+.contact-us-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #776F99;
+}
+.contact-us-discript {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 38px;
+    /* or 173% */
+    color: #666363;
 }
