@@ -24,19 +24,10 @@
          url('fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
   }
-html {
+/* html {
     width: 1920px;
 }
-.container {
-    width: 1920px;
-    margin: 0;
-    padding: 0;
-}
-@media (min-width: 1200px){
-.container {
-    max-width: 100%;
-}
-}
+ */
 .navbar {
     height: 202px;
     background: #ffffff !important;
@@ -220,7 +211,7 @@ height: 238px;
 .card {
     background: #FFFFFF;
     border: 1px solid #D6D4D4;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border-radius: 15px;
     margin-bottom: 70px;
 }
@@ -246,7 +237,7 @@ text-align: center;
     text-align: center;
 }
 .card-text {
-    width: 350px;
+    /* width: 350px; */
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -256,7 +247,7 @@ text-align: center;
     text-align: center;
     color: #787777;
     margin-top: 77px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 
  }
  .card:hover {
@@ -566,11 +557,11 @@ input:active, textarea:active {
 .proj-card {
     background: #FFFFFF;
     border: 3px solid #B1B3DF;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border-radius: 15px;
-    margin-right: 59px;
-    width: 672px;
-    height: 351px;
+    /* margin-right: 59px; */
+    /* width: 672px; */
+    /* height: 351px; */
 }
 .proj-card:hover {
     background: linear-gradient(116.98deg, #8B8FBA 39.5%, #B9BDDB 112.77%);
@@ -594,7 +585,7 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 .proj-card-logo {
-    margin-left: 46px;
+    /* margin-left: 46px; */
     margin-top: 39.56px;
     width: 55px;
     height: 54px;
@@ -607,7 +598,7 @@ color: #FFFFFF;
     font-size: 30px;
     line-height: 37px;
     color: #776F99;
-    margin-left: 34px;
+    /* margin-left: 34px; */
     margin-top: 39.56px;
 }
 .proj-card-date {
@@ -618,7 +609,7 @@ color: #FFFFFF;
     line-height: 35px;
     /* or 184% */
     color: #000000;
-    margin-left: 137px;
+    /* margin-left: 137px; */
     margin-right: 29px;
 }
 .proj-card-discript {
@@ -629,12 +620,15 @@ color: #FFFFFF;
     line-height: 35px;
     /* or 184% */
     color: #787777;
-    margin-left: 46px;
+    padding-left: 5%;
+    /* margin-left: 46px;
     margin-right: 120px;
-    margin-top: 20px;
+    margin-top: 20px; */
 }
 .first-line-wrapper {
     display: flex;
+    justify-content: space-evenly;
+
 }
 .second-line-wrapper {
     display: flex;
@@ -645,6 +639,7 @@ color: #FFFFFF;
     line-height: 35px;
     /* or 184% */
     color: #000000;
+    justify-content: space-evenly;
 }
 .proj-card-button {
     font-family: Roboto;
@@ -805,4 +800,22 @@ color: #FFFFFF;
         line-height: 31px;
         margin-top: 0;
      }
+     /* .card {
+         flex-direction: row;
+     } */
+     /* .card-body-wrap {
+         flex-direction: row;
+     } */
+     .card-title {
+         white-space: nowrap;
+     }
+     .card-subtitle {
+         white-space: nowrap;
+     }
+     .our-team-title {
+       white-space: nowrap;
+   }
+
+    
+     
  }
